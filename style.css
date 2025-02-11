@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'GFSArtemisia';
+    src: url(fonts/GFSArtemisia.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=GFS+Artemisia&display=swap');
+
+body{
+    background-color: #FDF6EE;
+}
+
+.homepage{
+    color: #f6a680; 
+    font-family: 'GFSArtemisia', serif; 
+    position: fixed; 
+    top: 90px;
+    left: 30px;  
+    line-height: 0.3; 
+}
+
+.homepage h1{ 
+    line-height: 1; 
+    font-size: 6em; 
+}
+
+.homepage h3{
+    font-size: 3em; 
+}
+
+
+.quote{ 
+    color: #f6a680; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 1000;
+    text-align: right; 
+    font-size: 1.5em; 
+    position: fixed; 
+    top: 500px; 
+    right: 30px;
+}
+
+#arabic{
+    font-weight: 1500;
+    font-size: 2em;
+    line-height: 0; 
+}
