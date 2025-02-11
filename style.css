@@ -4,3 +4,18 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=GFS+Artemisia&display=swap');
+
+body{
+    background-color: #FDF6EE;
+}
+
+.homepage{
+    color: #f6a680; 
+    font-family: 'GFSArtemisia', serif; 
+}
+
+.quote{ 
+    color: #f6a680; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+}
