@@ -5,10 +5,14 @@ body{
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .homepage{
     color: #f6a680; 
     font-family: 'GFSArtemisia', serif; 
-    position: fixed; 
+    position: absolute; 
     top: 90px;
     left: 30px;  
     line-height: 0.3; 
@@ -30,8 +34,8 @@ body{
     font-weight: 1000;
     text-align: right; 
     font-size: 1.5em; 
-    position: fixed; 
-    top: 500px; 
+    position: absolute; 
+    top: 450px; 
     right: 30px;
 }
 
@@ -90,9 +94,51 @@ body{
 .icons{
     position: absolute;
     left: 10px;
-    bottom: 620px;
+    top: -1px;
     display: flex;
     gap: 10px;
     font-size: 1.5em;
     color: #f6a680;
+}
+
+
+.aboutme {
+    margin-top: 700px; /* Adjust value as needed */
+    padding-left: 200px;
+    position: absolute;
+}
+
+.aboutme h3{
+    color: #f6a680;
+    font-family: 'GFSArtemisia', serif;
+    font-size: 3em;
+    line-height: 0px;
+}
+
+.aboutme p{
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 100px;
+    line-height: 1.5;
+}
+
+.aboutme img {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-right: 50px; /* Adjust as needed */
+    right: 30px; /* Fine-tune the horizontal position */
+    padding-right: 0;
+    border: 3px solid #f6a680;
+    border-radius: 10px;
+}
+
+.aboutme h6{ 
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-left: 850px;
 }
