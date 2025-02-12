@@ -8,7 +8,7 @@ body{
 .homepage{
     color: #f6a680; 
     font-family: 'GFSArtemisia', serif; 
-    position: fixed; 
+    position: absolute; 
     top: 90px;
     left: 30px;  
     line-height: 0.3; 
@@ -30,15 +30,24 @@ body{
     font-weight: 1000;
     text-align: right; 
     font-size: 1.5em; 
-    position: fixed; 
-    top: 500px; 
+    position: absolute; 
+    top: 550px; 
     right: 30px;
+}
+
+.quote p {
+    margin: 0; 
+    line-height: 1.2; 
 }
 
 #arabic{
     font-weight: 1500;
     font-size: 2em;
-    line-height: 0; 
+    line-height: 1.2; 
+    text-align: right;
+    display: block;
+    margin-left: auto; 
+    margin-bottom: 5px;
 }
 
 
@@ -95,4 +104,9 @@ body{
     gap: 10px;
     font-size: 1.5em;
     color: #f6a680;
+}
+
+.aboutme {
+    position: relative;
+    top: 600px;
 }
