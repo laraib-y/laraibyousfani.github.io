@@ -108,5 +108,23 @@ body{
 
 .aboutme {
     position: relative;
-    top: 600px;
+    top: 750px;
+    padding-left: 200px; 
+}
+
+.aboutme h3{
+    color: #f6a680; 
+    font-family: 'GFSArtemisia', serif; 
+    font-size: 3em;
+    line-height: 0.3; 
+    font-weight: 700;
+}
+
+.aboutme p{
+    color: #f6a680; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1em;
+    line-height: 1.5; 
+    font-weight: 700;
+    padding-left: 50px;
 }
