@@ -64,7 +64,7 @@ html{
     text-decoration: none;
     padding: 15px;
     position: relative; 
-    transition: color 0.3s ease-in-out; /*try and change*/
+    transition: color 0.3s ease-in-out;
 }
 
 .navbar a::after {
@@ -103,7 +103,7 @@ html{
 
 
 .aboutme {
-    margin-top: 700px; /* Adjust value as needed */
+    margin-top: 700px;
     padding-left: 200px;
     position: absolute;
 }
@@ -128,8 +128,8 @@ html{
     width: 25%;
     height: auto;
     float: right;
-    margin-right: 50px; /* Adjust as needed */
-    right: 30px; /* Fine-tune the horizontal position */
+    margin-right: 50px;
+    right: 30px;
     padding-right: 0;
     border: 3px solid #f6a680;
     border-radius: 10px;
@@ -141,4 +141,24 @@ html{
     font-size: 0.8em;
     font-weight: 700;
     padding-left: 850px;
+}
+
+.experiences {
+    margin-top: 1300px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+.experiences h3{
+    color: #f6a680;
+    font-family: 'GFSArtemisia', serif;
+    font-size: 3em;
+    line-height: 0;
+}
+
+.experiences li{
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
 }
