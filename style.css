@@ -153,5 +153,12 @@ html{
     color: #f6a680;
     font-family: 'GFSArtemisia', serif;
     font-size: 3em;
+    line-height: 0;
+}
 
+.experiences li{
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
 }
