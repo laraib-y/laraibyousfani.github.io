@@ -41,11 +41,19 @@ body{
     line-height: 0; 
 }
 
+.navbar {
+
+}
+
+
 .navbar ul {
     list-style-type: none; 
-    background-color: #f8dac8; 
-    padding: 0px; 
+    background-color: #f8dac8;  
     margin: 0px;
+    padding: 25px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar a{
@@ -54,4 +62,19 @@ body{
     font-size: 1.5em;
     font-weight: 1000;
     text-decoration: none;
+    padding: 15px;
+}
+
+.navbar li{
+    float: left; 
+}
+
+.icons{
+    position: absolute;
+    left: 10px;
+    top: 22px;
+    display: flex;
+    gap: 10px;
+    font-size: 2.5em;
+    color: #f6a680;
 }
