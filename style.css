@@ -230,3 +230,37 @@ html{
     padding-left: 43px;
     line-height: 2;
 }
+
+.gallery img {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+    right: 30px;
+    padding-right: 0;
+    border: 3px solid #f6a680;
+    border-radius: 10px;
+}
+
+.buttonGallery {
+    position: absolute;
+    margin-left: 510px;
+    bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 60px;
+    font-family: 'GFSArtemisia', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #f8dac8;
+    color: #f6a680;
+    border: 3px solid #f6a680;
+    border-radius: 15px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.buttonGallery:hover {
+    background-color: #f4c6ae;
+    color: #f6a680;
+}
