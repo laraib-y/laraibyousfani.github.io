@@ -6,22 +6,25 @@
     <title>Laraib's Personal Website</title>
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src = "script.js"></script>
 
 </head>
 <body>
     <section>
-
-        <button>Contact Me</button>
-        <div class = "contactme", id = "contactme">
-            <div class = "contactheader">
-                <div class = "contacttitle">Contact Me!</div>
-                <button class = "closebutton">&times;</button>
+        <div class="contactbutton">
+            <button data-modal-target="contactme">Contact Me</button>
+        </div>
+        
+        <div class="contactme" id="contactme">
+            <div class="contactheader">
+                <div class="contacttitle">Contact Me!</div>
+                <button data-close-button class="closebutton">&times;</button>
             </div>
-            <div class = "contactbody">
+            <div class="contactbody">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae eius accusantium aperiam laboriosam nam, natus dolore consectetur unde adipisci alias perspiciatis? Possimus ipsam pariatur voluptas. Facilis alias est quibusdam ab!</p>
             </div>
         </div>
-        
+        <div id="overlay"></div>
         <div class = "homepage">
             <h1><u>Hi,<br>I'm Laraib!</u></h1>
             <h3>Welcome To My Website!</h3>
