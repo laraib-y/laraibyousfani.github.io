@@ -162,3 +162,9 @@ html{
     font-weight: 700;
     line-height: 1.5;
 }
+
+.projects {
+    margin-top: 2000px;
+    padding-left: 200px;
+    position: absolute;
+}
