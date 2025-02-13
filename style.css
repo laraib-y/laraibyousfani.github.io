@@ -110,7 +110,7 @@ html{
 
 
 .aboutme {
-    margin-top: 700px;
+    margin-top: 750px;
     padding-left: 200px;
     position: absolute;
 }
@@ -147,11 +147,13 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 0.8em;
     font-weight: 700;
-    padding-left: 850px;
+    padding-top: 10px;
+    padding-left: 970px;
 }
 
 .experiences {
     margin-top: 1300px;
+    padding-top: 50px;
     padding-left: 200px;
     position: absolute;
 }
@@ -171,7 +173,7 @@ html{
 }
 
 .projects {
-    margin-top: 2000px;
+    margin-top: 2100px;
     padding-left: 200px;
     position: absolute;
 }
@@ -216,7 +218,7 @@ html{
 }
 
 .gallery {
-    margin-top: 2500px;
+    margin-top: 2600px;
     padding-left: 200px;
     position: absolute;
 }
