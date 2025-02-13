@@ -45,6 +45,13 @@ html{
     line-height: 0; 
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 .navbar ul {
     list-style-type: none; 
@@ -103,7 +110,7 @@ html{
 
 
 .aboutme {
-    margin-top: 700px;
+    margin-top: 750px;
     padding-left: 200px;
     position: absolute;
 }
@@ -140,11 +147,13 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 0.8em;
     font-weight: 700;
-    padding-left: 850px;
+    padding-top: 10px;
+    padding-left: 970px;
 }
 
 .experiences {
     margin-top: 1300px;
+    padding-top: 50px;
     padding-left: 200px;
     position: absolute;
 }
@@ -164,7 +173,7 @@ html{
 }
 
 .projects {
-    margin-top: 2000px;
+    margin-top: 2100px;
     padding-left: 200px;
     position: absolute;
 }
@@ -188,7 +197,9 @@ html{
 .button {
     position: absolute;
     margin-left: 870px;
-    bottom: 50px;
+    bottom: 80px;
+    width: 25%; 
+    height: auto;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -196,20 +207,18 @@ html{
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
-    background-color: #f8dac8;
-    color: #f6a680;
-    border: 3px solid #f6a680;
+    background-color: #f6a680;
+    color: #FDF6EE;
     border-radius: 15px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .button:hover {
-    background-color: #f4c6ae;
-    color: #f6a680;
+    background-color: #e08c5c;
 }
 
 .gallery {
-    margin-top: 2500px;
+    margin-top: 2600px;
     padding-left: 200px;
     position: absolute;
 }
@@ -243,7 +252,7 @@ html{
 
 .buttonGallery {
     position: absolute;
-    margin-left: 510px;
+    margin-left: 610px;
     bottom: 50px;
     display: inline-block;
     text-align: center;
@@ -252,16 +261,14 @@ html{
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
-    background-color: #f8dac8;
-    color: #f6a680;
-    border: 3px solid #f6a680;
+    background-color: #f6a680;
+    color: #FDF6EE;
     border-radius: 15px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .buttonGallery:hover {
-    background-color: #f4c6ae;
-    color: #f6a680;
+    background-color: #e08c5c;
 }
 
 .contactbutton{
@@ -271,7 +278,7 @@ html{
     display: inline-block;
     padding: 10px 20px;
     background-color: #f6a680;
-    color: white;
+    color: #FDF6EE;
     font-size: 1.2em;
     font-weight: bold;
     border-radius: 10px;
