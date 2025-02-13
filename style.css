@@ -120,7 +120,7 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 700;
-    padding-left: 100px;
+    padding-left: 43px;
     line-height: 1.5;
 }
 
@@ -161,4 +161,54 @@ html{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 1.5;
+}
+
+.projects {
+    margin-top: 2000px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+.projects h3{
+    color: #f6a680;
+    font-family: 'GFSArtemisia', serif;
+    font-size: 3em;
+    line-height: 0;
+}
+
+.projects p{
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 43px;
+    line-height: 1.5;
+}
+
+.projects button{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    color: #f6a680; 
+    font-family: 'GFSArtemisia', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #f8dac8;
+    border-color: #f6a680;
+    border-width: 3px;
+    border-radius: 15px;
+    float: right;
+    margin-left: 900px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #f6a680;
+}
+
+.projects button:hover {
+    background-color: #f8c7a8;
+    color: #f6a680;
 }
