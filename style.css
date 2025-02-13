@@ -191,7 +191,7 @@ html{
     position: absolute;
     color: #f6a680; 
     font-family: 'GFSArtemisia', serif;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 700;
     background-color: #f8dac8;
     border-color: #f6a680;
@@ -200,4 +200,15 @@ html{
     float: right;
     margin-left: 900px;
     margin-top: 50px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #f6a680;
+}
+
+.projects button:hover {
+    background-color: #f8c7a8;
+    color: #f6a680;
 }
