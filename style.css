@@ -185,14 +185,14 @@ html{
     line-height: 1.5;
 }
 
-.project-btn {
-    position: absolute; /* Ensures precise positioning */
+.button {
+    position: absolute;
     margin-left: 870px;
     bottom: 50px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 15px 20px; /* Adds padding for better button sizing */
+    padding: 15px 20px;
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
@@ -204,8 +204,13 @@ html{
 }
 
 /* Hover Effect */
-.project-btn:hover {
+.button:hover {
     background-color: #f4c6ae;
     color: #f6a680;
 }
 
+.gallery {
+    margin-top: 2500px;
+    padding-left: 200px;
+    position: absolute;
+}
