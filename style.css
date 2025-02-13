@@ -184,3 +184,20 @@ html{
     padding-left: 43px;
     line-height: 1.5;
 }
+
+.projects button{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    color: #f6a680; 
+    font-family: 'GFSArtemisia', serif;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #f8dac8;
+    border-color: #f6a680;
+    border-width: 3px;
+    border-radius: 15px;
+    float: right;
+    margin-left: 900px;
+    margin-top: 50px;
+}
