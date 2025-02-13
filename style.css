@@ -214,3 +214,19 @@ html{
     padding-left: 200px;
     position: absolute;
 }
+
+.gallery h3{
+    color: #f6a680;
+    font-family: 'GFSArtemisia', serif;
+    font-size: 3em;
+    line-height: 0;
+}
+
+.gallery p{
+    color: #f6a680;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 43px;
+    line-height: 2;
+}
