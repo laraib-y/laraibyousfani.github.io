@@ -185,30 +185,27 @@ html{
     line-height: 1.5;
 }
 
-.projects button{
-    width: 20%;
-    height: 30%;
-    position: absolute;
-    color: #f6a680; 
+.project-btn {
+    position: absolute; /* Ensures precise positioning */
+    margin-left: 870px;
+    bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px; /* Adds padding for better button sizing */
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
     background-color: #f8dac8;
-    border-color: #f6a680;
-    border-width: 3px;
+    color: #f6a680;
+    border: 3px solid #f6a680;
     border-radius: 15px;
-    float: right;
-    margin-left: 900px;
-    margin-top: 50px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.projects a{
-    text-decoration: none;
+/* Hover Effect */
+.project-btn:hover {
+    background-color: #f4c6ae;
     color: #f6a680;
 }
 
-.projects button:hover {
-    background-color: #f8c7a8;
-    color: #f6a680;
-}
