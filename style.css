@@ -343,6 +343,10 @@ html{
 
 .contactbody{
     padding: 10px 15px; 
+    font-family: 'GFSArtemisia', serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #f6a680; 
 }
 
 #overlay{
