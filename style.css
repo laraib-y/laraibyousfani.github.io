@@ -264,3 +264,9 @@ html{
     background-color: #f4c6ae;
     color: #f6a680;
 }
+
+button{
+    position: absolute; /* Keeps it in place even when scrolling */
+    top: 100px; /* Adjust as needed for spacing from the top */
+    right: 10px; /* Aligns it to the right */
+}
