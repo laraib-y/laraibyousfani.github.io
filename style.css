@@ -197,7 +197,9 @@ html{
 .button {
     position: absolute;
     margin-left: 870px;
-    bottom: 50px;
+    bottom: 80px;
+    width: 25%; 
+    height: auto;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -205,16 +207,14 @@ html{
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
-    background-color: #f8dac8;
-    color: #f6a680;
-    border: 3px solid #f6a680;
+    background-color: #f6a680;
+    color: #FDF6EE;
     border-radius: 15px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .button:hover {
-    background-color: #f4c6ae;
-    color: #f6a680;
+    background-color: #e08c5c;
 }
 
 .gallery {
@@ -252,7 +252,7 @@ html{
 
 .buttonGallery {
     position: absolute;
-    margin-left: 510px;
+    margin-left: 610px;
     bottom: 50px;
     display: inline-block;
     text-align: center;
@@ -261,16 +261,14 @@ html{
     font-family: 'GFSArtemisia', serif;
     font-size: 1.5em;
     font-weight: 700;
-    background-color: #f8dac8;
-    color: #f6a680;
-    border: 3px solid #f6a680;
+    background-color: #f6a680;
+    color: #FDF6EE;
     border-radius: 15px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .buttonGallery:hover {
-    background-color: #f4c6ae;
-    color: #f6a680;
+    background-color: #e08c5c;
 }
 
 .contactbutton{
@@ -280,7 +278,7 @@ html{
     display: inline-block;
     padding: 10px 20px;
     background-color: #f6a680;
-    color: white;
+    color: #FDF6EE;
     font-size: 1.2em;
     font-weight: bold;
     border-radius: 10px;
